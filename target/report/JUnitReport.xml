@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.447" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Google Page Search function" name="Search Java Tutorial" time="0.175">
+<system-out><![CDATA[
+Given User is on Google Page................................................passed
+When I search Java Tutorial.................................................passed
+Then Should display Java result page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Page Search function" name="Search Selenium Tutorial" time="0.01">
+<system-out><![CDATA[
+Given User is on Google Page................................................passed
+When I search Selenium Tutorial.............................................passed
+Then Should display Selenium result page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
