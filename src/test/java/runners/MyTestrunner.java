@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = "src\\test\\resources\\Features\\GooglePageSearch.feature",
+		features = "src\\test\\resources\\Features\\UserLogin.feature",
 			glue = {"stepDefs"},
 			monochrome = true,
 			dryRun = true,
@@ -15,7 +15,8 @@ import io.cucumber.testng.CucumberOptions;
 		"usage:target/reports/UsageReport",
 		"json:target/report/JsonReport.json",
 		"junit:target/report/JUnitReport.xml",
-		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+		"return:target/failedScenarios.txt"
 		}
 		
 )
